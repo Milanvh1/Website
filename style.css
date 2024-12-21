@@ -347,8 +347,8 @@ section {
 
 article {
   display: flex;
-  align-items: center; /* Align icons and text vertically */
-  width: calc(50% - 1rem); /* Two articles per row with spacing */
+  align-items: flex-start; /* Align the icon and text to the top */
+  width: calc(50% - 1rem); /* Ensure two items per row */
   gap: 1rem; /* Space between the icon and the text */
 }
 
@@ -360,7 +360,8 @@ article .icon {
 
 article div {
   display: flex;
-  flex-direction: column; /* Stack the text vertically */
+  flex-direction: column; /* Stack h3 and p vertically */
+  align-items: flex-start; /* Align the content (h3 and p) to the left */
 }
 
 h3,
