@@ -369,6 +369,7 @@ h3.experience,
 p.experience {
   margin: 0; /* Remove extra spacing from text elements */
   text-align: left;
+  margin-left: 100px; 
 }
 
 p {
