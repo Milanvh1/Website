@@ -366,6 +366,7 @@ article div {
 h3,
 p {
   margin: 0; /* Remove extra spacing from text elements */
+  text-align: left;
 }
 /* PROJECTS SECTION */
 
