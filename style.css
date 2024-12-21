@@ -351,7 +351,7 @@ article {
   display: flex;
   align-items: flex-start; /* Align the icon and text to the top */
   width: calc(50% - 1rem); /* Ensure two items per row */
-  gap: 1rem; /* Space between the icon and the text */
+  gap: 0.2rem; /* Space between the icon and the text */
 }
 
 article .icon {
