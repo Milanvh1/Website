@@ -316,6 +316,8 @@ section {
 
 /* EXPERIENCE SECTION */
 
+/* EXPERIENCE SECTION */
+
 #experience {
   position: relative;
 }
@@ -362,6 +364,7 @@ article div {
   display: flex;
   flex-direction: column; /* Stack h3 and p vertically */
   align-items: flex-start; /* Align the content (h3 and p) to the left */
+  margin-left: 100px; 
 }
 
 h3.experience,
