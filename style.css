@@ -343,7 +343,6 @@ section {
   flex-wrap: wrap;
   gap: 2rem; /* Space between articles */
   justify-content: flex-start; /* Align articles to the start */
-  padding-left: 0.2rem; /* Shift the whole container to the right */
 }
 
 article {
