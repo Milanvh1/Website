@@ -324,43 +324,31 @@ section {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+  width: 100%; /* Ensure each item takes full width */
 }
 
 .experience-item .icon {
   margin-right: 10px;
+  flex-shrink: 0; /* Prevent the icon from shrinking */
 }
 
 .experience-item div {
   display: flex;
   flex-direction: column;
-}
-
-.experience-sub-title {
-  color: rgb(85, 85, 85);
-  font-weight: 600;
-  font-size: 1.75rem;
-  margin-bottom: 2rem;
-}
-
-.experience-details-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  flex-grow: 1; /* Allow the text container to grow */
 }
 
 .article-container {
   display: flex;
-  text-align: initial;
   flex-wrap: wrap;
-  flex-direction: row;
   gap: 2.5rem;
-  justify-content: space-around;
+  justify-content: space-between; /* Distribute space between items */
 }
 
 article {
   display: flex;
-  width: 10rem;
-  justify-content: space-around;
+  align-items: center;
+  width: calc(50% - 1.25rem); /* Adjust width for two items per row */
   gap: 0.5rem;
 }
 
