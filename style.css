@@ -369,6 +369,11 @@ p {
   margin: 0; /* Remove extra spacing from text elements */
   text-align: left;
 }
+
+h2 {
+  margin-bottom: 1rem; /* Adjust the value as needed */
+}
+
 /* PROJECTS SECTION */
 
 #projects {
