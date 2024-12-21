@@ -365,8 +365,8 @@ article div {
   margin-left: 10px; 
 }
 
-h3,
-p {
+h3.experience-item,
+p.experience-item {
   margin: 0; /* Remove extra spacing from text elements */
   text-align: left;
 }
