@@ -341,21 +341,32 @@ section {
 .article-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 2.5rem;
-  justify-content: space-between; /* Distribute space between items */
+  gap: 2rem; /* Space between articles */
+  justify-content: flex-start; /* Align articles to the start */
 }
 
 article {
   display: flex;
-  align-items: center;
-  width: calc(50% - 1.25rem); /* Adjust width for two items per row */
-  gap: 0.5rem;
+  align-items: center; /* Align icons and text vertically */
+  width: calc(50% - 1rem); /* Two articles per row with spacing */
+  gap: 1rem; /* Space between the icon and the text */
 }
 
 article .icon {
-  cursor: default;
+  width: 2rem; /* Set a fixed width for the icons */
+  height: 2rem; /* Ensure icons are uniform in size */
+  object-fit: contain; /* Ensure icons maintain aspect ratio */
 }
 
+article div {
+  display: flex;
+  flex-direction: column; /* Stack the text vertically */
+}
+
+h3,
+p {
+  margin: 0; /* Remove extra spacing from text elements */
+}
 /* PROJECTS SECTION */
 
 #projects {
