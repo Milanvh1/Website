@@ -351,13 +351,14 @@ article {
   display: flex;
   align-items: flex-start; /* Align the icon and text to the top */
   width: calc(50% - 1rem); /* Ensure two items per row */
-  gap: 0.2rem; /* Space between the icon and the text */
+  gap: 0.3rem; /* Space between the icon and the text */
 }
 
 article .icon {
   width: 2rem; /* Set a fixed width for the icons */
   height: 2rem; /* Ensure icons are uniform in size */
   object-fit: contain; /* Ensure icons maintain aspect ratio */
+  margin-left: 30px; 
 }
 
 article div {
@@ -370,7 +371,6 @@ h3.experience,
 p.experience {
   margin: 0; /* Remove extra spacing from text elements */
   text-align: left;
-  margin-left: 20px; 
 }
 
 h2.experience-sub-title {
