@@ -344,7 +344,8 @@ section {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem; /* Space between articles */
-  justify-content: flex-start; /* Align articles to the start */
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically if the container has a height */
 }
 
 article {
@@ -390,8 +391,9 @@ h2.experience-sub-title {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  max-width: 100%; /* Ensures the image doesn't overflow */
+  max-height: 100%; /* Ensures the image doesn't overflow */
+  object-fit: contain; /* Maintains aspect ratio without distortion */
 }
 
 .project-title {
